@@ -293,7 +293,7 @@ div.desc {
 .aboutbaner{
     width: 1900px;
     height: 200px;
-    background-image:url(https://thumbs.dreamstime.com/z/banner-organic-food-background-healthy-selection-clean-eating-fruit-vegetable-superfood-wooden-high-resolution-product-copy-170839734.jpg?w=1900);
+    background-image:url(img/Image1.png);
     display:flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -309,6 +309,74 @@ div.desc {
     text-align: center;
     border-radius: 10px;  
 }
+
+.container-1{
+    width: 1900px;
+    height: 1200px;
+    display: flex;
+    background-color: whitesmoke;
+    margin-top: 150px;
+    flex-direction: column;
+}
+.boxx{
+    width: 1400px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+
+}
+.box-1{
+    width: 680px;
+    height: 580px;
+    border-color:white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+
+}
+.img-1{
+    height: 678px;
+    height: 579px;
+    padding-bottom:9px;
+}
+.boxx1{
+    width: 1120px;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 200px;
+
+}
+.box-2{
+    width: 200px;
+    height: 300px;
+    display: block;
+    text-align: left;
+    
+  
+}
+.desc {
+    
+    text-align: left;
+    display: inline-flex;
+    color: rgb(81, 143, 81) ;
+    font-size: 20px;
+    font-family: 'Yellowtail', cursive;
+}
+
+  .font{
+    font-family:'Roboto', sans-serif;
+    color: black;
+    
+    text-align: left;
+    
+}
+    
+  
+
 
     
     
