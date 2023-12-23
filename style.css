@@ -12,7 +12,8 @@ body{
     height: 200px;
     position:fixed;
     display: flex;
-    flex-direction: space-around; 
+    flex-direction: space-around;
+    
 }
 .logo{
     margin: 10px;
@@ -46,8 +47,8 @@ body{
 .baner{
     width: 1900px;
     height: 898px;
-    background-image:url("Image.png");
-    justify-content: space-around;
+    background-image:url(img/Image.png);
+    
     
 
 }
@@ -274,7 +275,7 @@ div.desc {
     height:80px ;
 }
 .boxcontact02{
-    width: 350px;px ;
+    width: 350px;
     height:80px ;
     display: inline-flex;
     flex-direction: row;
@@ -287,6 +288,26 @@ div.desc {
     padding-bottom: 10px;
     margin-bottom: 10px;
 
+}
+
+.aboutbaner{
+    width: 1900px;
+    height: 200px;
+    background-image:url(https://thumbs.dreamstime.com/z/banner-organic-food-background-healthy-selection-clean-eating-fruit-vegetable-superfood-wooden-high-resolution-product-copy-170839734.jpg?w=1900);
+    display:flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.boxtitle{
+    width: 250px;
+    height: 80px;
+    background-color:wheat;
+    font-size: 50px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 10px;  
 }
 
     
