@@ -57,7 +57,6 @@ body{
     height: 500px;
     text-align: left ;
     padding: 200px;
-    ;
     
 }
 .title{
@@ -359,7 +358,7 @@ div.desc {
   
 }
 .desc {
-    
+    line-height: 28px;
     text-align: left;
     display: inline-flex;
     color: rgb(81, 143, 81) ;
@@ -370,10 +369,90 @@ div.desc {
   .font{
     font-family:'Roboto', sans-serif;
     color: black;
-    
+    line-height: 28px;
+    line-height: 28px;
+    display: inline;
     text-align: left;
-    
+      
 }
+.font2{
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    line-height: 28px;
+    display: inline;
+    color: rgb(81, 143, 81) ;
+    text-align: left;
+    margin: 50px;
+    padding: 20px;
+}
+.font3{
+    font-family:'Roboto', sans-serif;
+    color: black;
+    font-size: 30px;
+    line-height: 28px;
+    margin: 100px;
+    display: inline-block;
+    text-align: left;
+}
+.container5{
+    width: 1900px;
+    height: 800px;
+    display: flex;
+    flex-direction: space-around;
+    margin: 100px;
+}
+
+.imgbox2{
+    width: 900px;
+    height: 600px;
+    background-image: url(img/photo5.png)
+}
+.box-5{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.he{
+    font-family:'Roboto', sans-serif;
+    
+    color: rgb(81, 143, 81) ;
+    font-size: 40px;
+    line-height: 28px;   
+}
+.pe{
+    font-family: 'Yellowtail', cursive;
+    color: black;
+    font-size: 30px;
+    line-height: 28px; 
+    padding: 50px; 
+}
+
+.imgcontainer{
+    width: 1400px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 30px;
+    padding: 80px;
+}
+.h14{
+    font-family:'Roboto', sans-serif;
+    color: rgb(81, 143, 81) ;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
     
   
 
